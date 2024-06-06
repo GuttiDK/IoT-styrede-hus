@@ -96,7 +96,7 @@ void loop() {
     } else if (menuState == EDIT_DATE) {
       increaseDate();
     }
-    delay(100); // Adjust delay as needed for speed
+    delay(10); // Adjust delay as needed for speed
   }
 
   if (fastDecrement) {
@@ -105,7 +105,7 @@ void loop() {
     } else if (menuState == EDIT_DATE) {
       decreaseDate();
     }
-    delay(100); // Adjust delay as needed for speed
+    delay(10); // Adjust delay as needed for speed
   }
 }
 
